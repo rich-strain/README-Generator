@@ -31,7 +31,8 @@ function renderLicenseSection(license) {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   // Currently Only Retuns The Title Of The Project and Section Headers
-  return `# ${data.title} \n ${renderLicenseBadge(data.license)} \n ## Description \n ## Table Of Contents \n ## Usage \n 
+  return `# ${data.title} \n ${renderLicenseBadge(data.license)} \n 
+  ## Description \n ## Table Of Contents \n ## Usage \n 
   ## License \n ## Contributing \n ## Tests \n ## Questions \n `;
 }
 
