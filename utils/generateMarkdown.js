@@ -11,7 +11,7 @@ function renderLicenseBadge(license) {
     case 'Creative Commons License':
       return '[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)';
     case 'None':
-      return 'LICENSE: NONE';
+      return '';
   }
 }
 
@@ -28,24 +28,54 @@ function renderLicenseLink(license) {
       return '[Apache License](https://opensource.org/licenses/Apache-2.0)';
     case 'Creative Commons License':
       return '[Creative Commons License](http://creativecommons.org/publicdomain/zero/1.0/)';
-    case 'None':
-      return 'LICENSE: NONE';
+    default:
+      return '';
   }
 }
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
-  // switch statement will go here to return the correct section based on the license paramater
-  return '';
+  // Return the license section of the README based on the license paramater
+  if (license !== 'None') {
+    return `## License \n This project is licensed under the ${license} license. \n`;
+  } else {
+    return '';
+  }
 }
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  // Currently Only Retuns The Title Of The Project and Section Headers
-  return `# ${data.title} \n ${renderLicenseBadge(data.license)} \n 
-  ## Description \n ## Table Of Contents \n ## Usage \n 
-  ## License \n ${renderLicenseLink(data.license)} \n ## Contributing \n ## Tests \n ## Questions \n `;
+  const { title, description, installation, usage, contribution, test, license, github, email } = data;
+  const licenseSection = renderLicenseSection(data.license);
+
+  const questions = `If you have any questions, feel free to reach out to me at [${email}](mailto:${email}). You can also contact me or view more of my work at https://github.com/${github}.`;
+
+  return `
+  # ${title} \n 
+  ${renderLicenseBadge(license)} \n 
+  ## Description \n
+  ${description} \n
+  ## Table Of Contents \n 
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [Contributing](#contributing)
+  - [Tests](#tests)
+  - [Questions](#questions)
+  ## Installation \n
+  ${installation} \n
+  ## Usage \n
+  ${usage} \n 
+  ${licenseSection} \n
+  ## Contributing \n
+  ${contribution} \n
+  ## Tests \n 
+  ${test} \n
+  ## Questions \n
+  ${questions}
+
+  `;
 }
 
 module.exports = generateMarkdown;
