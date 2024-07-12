@@ -46,10 +46,17 @@ function renderLicenseSection(license) {
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
+  // Deconstruct the data object
   const { title, description, installation, usage, contribution, test, license, github, email } = data;
-  const licenseSection = renderLicenseSection(data.license);
 
-  const questions = `If you have any questions, feel free to reach out to me at [${email}](mailto:${email}). You can also contact me or view more of my work at https://github.com/${github}.`;
+  // Create Installation section
+  const startCodeBlock = ' ```sh \n';
+  const endCodeBlock = ' ``` ';
+  const installSection = `${startCodeBlock} ${installation} \n ${endCodeBlock}`;
+
+  // Create License section
+  const licenseSection = renderLicenseSection(data.license);
+  const questions = `You can find me on Github https://github.com/${github}. \n If you have any questions, feel free to reach out to me at [${email}](mailto:${email}).`;
 
   return `
   # ${title} \n 
@@ -64,7 +71,7 @@ function generateMarkdown(data) {
   - [Tests](#tests)
   - [Questions](#questions)
   ## Installation \n
-  ${installation} \n
+  ${installSection} \n
   ## Usage \n
   ${usage} \n 
   ${licenseSection} \n
