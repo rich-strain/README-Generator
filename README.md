@@ -1,7 +1,7 @@
 
-  #  
+  # [TITLE PLACEHOLDER] 
  
-  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0) 
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yello.svg)](https://opensource.org/licenses/MIT) 
  
   ## Description 
 
@@ -24,7 +24,7 @@
    
  
   ## License 
- This project is licensed under the Apache license. 
+ This project is licensed under the MIT license. 
  
 
   ## Contributing 
@@ -37,6 +37,6 @@
 
   ## Questions 
 
-  If you have any questions, feel free to reach out to me at [](mailto:). You can also contact me or view more of my work at https://github.com/.
+  If you have any questions, feel free to reach out to me at [[emailPlaceHolder]](mailto:[emailPlaceHolder]). You can also contact me or view more of my work at https://github.com/git-hub.
 
   
