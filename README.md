@@ -1,42 +1,39 @@
+# Professional README Generator
 
-  # [TITLE PLACEHOLDER] 
- 
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yello.svg)](https://opensource.org/licenses/MIT) 
- 
-  ## Description 
+## Description
 
-   
+Automatically generate a README file by answering questions in a command-line application.
 
-  ## Table Of Contents 
- 
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [License](#license)
-  - [Contributing](#contributing)
-  - [Tests](#tests)
-  - [Questions](#questions)
-  ## Installation 
+## Table Of Contents
 
-   
+- [Installation](#installation)
+- [Usage](#usage)
+- [Questions](#questions)
+- [Screenshot](#screenshot)
+- [Video URL](#video-url)
 
-  ## Usage 
+## Installation
 
-   
- 
-  ## License 
- This project is licensed under the MIT license. 
- 
+```sh
+  npm install
+```
 
-  ## Contributing 
+## Usage
 
-   
+In the root of your application run `node index.js` from the terminal. Answer each question as they presented in the command-line application. After the last question is answered, your responses will be automatically saved to a new README.md file.
 
-  ## Tests 
- 
-   
+## Questions
 
-  ## Questions 
+If you have any questions, feel free to reach out to me at (mailto:[richardstrain@gmail.com]). You can also contact me or view more of my work at https://github.com/git-hub-rich-strain.
 
-  If you have any questions, feel free to reach out to me at [[emailPlaceHolder]](mailto:[emailPlaceHolder]). You can also contact me or view more of my work at https://github.com/git-hub.
+## Screenshot
 
-  
+![Video](./includes/images/screenshot.png)
+
+## Video-URL
+
+- https://drive.google.com/file/d/1DBgU7aL1YAOYirc0WX5SMCrqgVIECLid/view?usp=share_link
+
+## Generate README File Location
+
+![Generated-README](./includes/README.md)

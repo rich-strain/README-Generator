@@ -1,11 +1,11 @@
 
-  # Professional Readme Generator 
+  # Professional README Generator 
  
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
  
   ## Description 
 
-  This is a test example of a description for a project. 
+  Quickly and easily generate a README file by using a command-line application. 
 
   ## Table Of Contents 
  
@@ -23,7 +23,7 @@
 
   ## Usage 
 
-  This is a test example of what you might find in the Usage section of a README file. Open your terminal in root of your project folder and execut the following command: “node index.js”.   
+  Answer questions presented in the command-line application to automatically generate a README file. 
  
   ## License 
  This project is licensed under the MIT license. 
@@ -31,15 +31,15 @@
 
   ## Contributing 
 
-  We welcome contributions from the community to help improve this project. Please refer to the contribution guidelines provide here. 
+  We welcome contributions from the community to help improve this project. Please refer to the contribution guidelines here. 
 
   ## Tests 
  
-  To run tests for this project ensure that you have installed the necessary dependencies by running “npm install”. You can also run “npm test” to execute the test scripts defined in the package.json file. 
+  Please run "npm test" to execute the test scripts defined in the package.json file. 
 
   ## Questions 
 
-  You can find me on Github https://github.com/git-hub-username. 
+  You can find me on Github https://github.com/rich-strain. 
  If you have any questions, feel free to reach out to me at [student@codingbootcamp.com](mailto:student@codingbootcamp.com).
 
   
