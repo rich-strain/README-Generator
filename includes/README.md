@@ -1,11 +1,11 @@
 
-  # Pro ReadMe Gen 
+  # Professional Readme Generator 
  
-  [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0) 
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
  
   ## Description 
 
-  Description 
+  This is a test example of a description for a project. 
 
   ## Table Of Contents 
  
@@ -23,23 +23,23 @@
 
   ## Usage 
 
-  node index.js 
+  This is a test example of what you might find in the Usage section of a README file. Open your terminal in root of your project folder and execut the following command: “node index.js”.   
  
   ## License 
- This project is licensed under the GNU General Public License license. 
+ This project is licensed under the MIT license. 
  
 
   ## Contributing 
 
-  contribution goes here 
+  We welcome contributions from the community to help improve this project. Please refer to the contribution guidelines provide here. 
 
   ## Tests 
  
-  test goes here 
+  To run tests for this project ensure that you have installed the necessary dependencies by running “npm install”. You can also run “npm test” to execute the test scripts defined in the package.json file. 
 
   ## Questions 
 
-  You can find me on Github https://github.com/rich-strain. 
- If you have any questions, feel free to reach out to me at [richardstrain@gmail.com](mailto:richardstrain@gmail.com).
+  You can find me on Github https://github.com/git-hub-username. 
+ If you have any questions, feel free to reach out to me at [student@codingbootcamp.com](mailto:student@codingbootcamp.com).
 
   
