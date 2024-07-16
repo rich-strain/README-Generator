@@ -36,4 +36,4 @@ If you have any questions, feel free to reach out to me at (mailto:[richardstrai
 
 ## Generate README File Location
 
-![Generated-README](./includes/README.md)
+The generated README file for this challenge can be found in the dist folder.

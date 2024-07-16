@@ -3,3 +3,6 @@ node_modules
 
 # Mac OS Director Settings
 .DS_Store/
+
+# JSON
+package-lock.json
