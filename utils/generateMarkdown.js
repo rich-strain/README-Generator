@@ -50,9 +50,9 @@ function generateMarkdown(data) {
   const { title, description, installation, usage, contribution, test, license, github, email } = data;
 
   // Create Installation section
-  const startCodeBlock = ' ```sh \n';
+  const startCodeBlock = ' ```sh';
   const endCodeBlock = ' ``` ';
-  const installSection = `${startCodeBlock} ${installation} \n ${endCodeBlock}`;
+  const installSection = `${startCodeBlock} ${installation}  ${endCodeBlock}`;
 
   // Create License section
   const licenseSection = renderLicenseSection(data.license);
